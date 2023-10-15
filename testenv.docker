@@ -1,0 +1,6 @@
+FROM cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-build-14:latest
+
+COPY . /opt/shad
+
+RUN find /opt/shad/private -name 'solution' | xargs rm -rf
+RUN find /opt/shad/private -name '*.cpp' -or -name '*.h' | xargs chmod o-rwx

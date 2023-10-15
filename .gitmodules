@@ -1,0 +1,6 @@
+[submodule "private"]
+	path = private
+	url = ../../mfgnik/2023-cpp-se-private.git
+[submodule "grader"]
+	path = grader
+	url = ../../levanovd/cpp-grader.git

@@ -1,0 +1,1 @@
+add_catch(test_exam3 test.cpp)

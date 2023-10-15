@@ -1,0 +1,31 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - test
+  - release
+
+.check:
+  stage: test
+  image: cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-build-14
+  script:
+    - cmake --version
+    - mkdir -p build/solutions
+    - cd build/solutions
+    - cmake ../../ -G Ninja -DTEST_SOLUTION=ON -DENABLE_PRIVATE_TESTS=ON
+    - ninja test-all
+
+check-solutions-clang-14:
+  extends: .check
+  variables:
+    CC: clang-14
+    CXX: clang++-14
+
+deploy:
+  tags:
+  - docker
+  stage: test
+  script:
+  - docker pull cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-build-14
+  - docker build -f testenv.docker -t cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-se-beta .
+  - docker push cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-se-beta:latest

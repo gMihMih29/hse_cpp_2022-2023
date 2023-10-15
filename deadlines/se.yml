@@ -1,0 +1,165 @@
+- group: 02-homework-big-two
+  start: 08-06-2023 11:00
+  deadline: 22-06-2023 23:59
+  tasks:
+    - task: enumerate
+      score: 50
+    - task: reversed
+      score: 50
+    - task: list
+      score: 100
+    - task: smart-ptr
+      score: 100
+    - task: unordered_set
+      score: 100
+
+
+- group: 08-homework-eight
+  start: 06-06-2023 20:00
+  deadline: 19-06-2023 23:59
+  tasks:
+    - task: itertools
+      score: 100
+    - task: any
+      score: 100
+
+
+- group: 07-homework-seven
+  start: 30-05-2023 20:00
+  deadline: 11-06-2023 23:59
+  tasks:
+    - task: unique-ptr
+      score: 100
+    - task: dedup
+      score: 100
+    - task: reader
+      score: 100
+    - task: vector
+      score: 150
+
+- group: 06-homework-six
+  start: 21-05-2023 20:00
+  deadline: 04-06-2023 23:59
+  tasks:
+    - task: geometry_vector
+      score: 50
+    - task: geometry_point
+      score: 100
+    - task: geometry_line
+      score: 100
+    - task: geometry_segment
+      score: 100
+    - task: geometry_ray
+      score: 100
+    - task: geometry_polygon
+      score: 100
+    - task: geometry_circle
+      score: 100
+
+- group: 01-homework-big-one
+  start: 19-05-2023 11:00
+  deadline: 09-06-2023 23:59
+  tasks:
+    - task: copy
+      score: 50
+    - task: unique
+      score: 50
+    - task: rotate
+      score: 50
+    - task: queue
+      score: 100
+    - task: string_view
+      score: 100
+    - task: string
+      score: 200
+    - task: cstring
+      score: 200
+
+
+- group: 05-homework-five
+  start: 16-05-2023 11:00
+  deadline: 28-05-2023 23:59
+  tasks:
+    - task: tests_checking
+      score: 100
+    - task: word2vec
+      score: 100
+    - task: admission
+      score: 100
+    - task: scorer
+      score: 100
+    - task: unixpath
+      score: 150
+    - task: provinces
+      score: 150
+
+
+- group: 04-homework-four
+  start: 11-05-2023 11:00
+  deadline: 23-05-2023 23:59
+  tasks:
+    - task: is_sorted_until
+      score: 100
+    - task: remove
+      score: 100
+    - task: rational
+      score: 200
+    - task: array
+      score: 200
+
+
+- group: 03-homework-three
+  start: 25-04-2023 16:00
+  deadline: 16-05-2023 23:59
+  tasks:
+    - task: caesar_cipher
+      score: 100
+    - task: find_last
+      score: 100
+    - task: sort
+      score: 100
+    - task: stack
+      score: 200
+
+- group: 02-homework-two
+  start: 19-04-2023 16:00
+  deadline: 29-04-2023 23:59
+  tasks:
+    - task: const_diagonal
+      score: 100
+    - task: variable_diagonal
+      score: 100
+    - task: palindrome
+      score: 100
+    - task: password
+      score: 100
+    - task: range
+      score: 100
+    - task: factorization
+      score: 100
+    - task: sort_students
+      score: 100
+
+
+- group: 01-homework-one
+  start: 08-04-2023 00:00
+  deadline: 22-04-2023 23:59
+  tasks:
+    - task: multiplication
+      score: 100
+    - task: hypotenuse
+      score: 100
+    - task: next_even
+      score: 100
+    - task: is_leap
+      score: 100
+    - task: fibonacci
+      score: 100
+    - task: min_divisor
+      score: 100
+    - task: chocolate
+      score: 100
+    - task: sum_digits
+      score: 100
+    - task: reduce_fraction
+      score: 100

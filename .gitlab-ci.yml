@@ -1,0 +1,6 @@
+grade:
+  image: cr.yandex/crpkun66rq02t8mpkpa4/cpp-course-se
+  only:
+    - /^submits/.*$/
+  script:
+    - cd /opt/shad && PYTHONPATH=grader python3 -m grader
